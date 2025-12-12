@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <h1>Your Name</h1>
+        <ul>
+            <li onclick="showTab('intro')" class="active">Intro</li>
+            <li onclick="showTab('professional')">Professional</li>
+            <li onclick="showTab('personal')">Personal</li>
+        </ul>
+    </nav>
+
+    <section id="intro" class="tab active">
+        <h2>Welcome</h2>
+        <p>
+            This is a space where I share who I am — where I've been, what I'm doing,
+            and what I hope to build in the future.
+        </p>
+    </section>
+
+    <section id="professional" class="tab">
+        <h2>Professional Work</h2>
+        <p>
+            Add information about your experience, projects, CV/resume links, or samples
+            of professional work here.
+        </p>
+    </section>
+
+    <section id="personal" class="tab">
+        <h2>Personal Interests</h2>
+        <p>
+            Share your personal philosophy, goals, writing, hobbies, or projects you're
+            exploring.
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
