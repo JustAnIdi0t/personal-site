@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Contact – Your Name</title>
+  <title>Contact -- Your Name</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
+  <!-- NAVIGATION -->
   <nav>
     <div class="nav-inner">
       <a class="site-title" href="index.html">Your Name</a>
@@ -19,12 +20,62 @@
     </div>
   </nav>
 
+  <!-- MAIN CONTENT -->
   <main class="content">
-    <h1>Contact</h1>
-    <p>
-      You can reach me at: <br />
-      <strong>your@email.com</strong>
-    </p>
+
+    <!-- HEADER -->
+    <section>
+      <h1>Contact</h1>
+      <p>
+        If you'd like to get in touch, you can reach me directly by email
+        or sign up to receive occasional updates.
+      </p>
+    </section>
+
+    <!-- EMAIL -->
+    <section>
+      <h2>Email</h2>
+      <p>
+        You can contact me at:<br />
+        <strong>
+          <a href="mailto:your@email.com">your@email.com</a>
+        </strong>
+      </p>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section>
+      <h2>Newsletter</h2>
+      <p>
+        If you'd like to receive occasional updates, you can subscribe below.
+        No fixed schedule.
+      </p>
+
+      <form
+        name="newsletter"
+        method="POST"
+        data-netlify="true"
+      >
+        <!-- Netlify form name -->
+        <input type="hidden" name="form-name" value="newsletter" />
+
+        <label>
+          Email address
+          <br />
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="you@example.com"
+          />
+        </label>
+
+        <br /><br />
+
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
   </main>
 
 </body>
