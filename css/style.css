@@ -45,3 +45,16 @@ nav {
   margin: 4rem auto;
   padding: 0 1.5rem;
 }
+
+/* Active navigation highlighting */
+
+.page-home .nav-home,
+.page-professional .nav-professional,
+.page-personal .nav-personal,
+.page-now .nav-now,
+.page-contact .nav-contact {
+  font-weight: 600;
+  color: black;
+  border-bottom: 2px solid black;
+}
+
