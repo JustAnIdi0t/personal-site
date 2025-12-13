@@ -103,10 +103,19 @@ nav {
 }
 
 .content {
-  max-width: 700px;
+  max-width: 680px;
   margin: 4rem auto;
   padding: 0 1.5rem;
 }
+
+section {
+  margin-bottom: 3.5rem;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
 
 /* Active navigation highlighting */
 
