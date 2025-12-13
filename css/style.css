@@ -6,8 +6,8 @@ body {
                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.65;
-  background: #fafafa;
-  color: #222;
+  background: #f9f7f4;
+  color: #1f1f1f;
 }
 
 h1, h2, h3 {
@@ -19,7 +19,8 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -33,6 +34,7 @@ h3 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
+
 
 p {
   margin-top: 0;
@@ -59,10 +61,11 @@ li {
 }
 
 nav {
-  background: white;
-  border-bottom: 1px solid #ddd;
+  background: #f9f7f4;
+  border-bottom: 1px solid #e2ded8;
   padding: 1rem 2rem;
 }
+
 
 .site-title {
   font-weight: 600;
