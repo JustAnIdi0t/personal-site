@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+
+.nav-inner {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
+}
+
+.site-title {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+}
+
+.nav-links a:hover {
+  color: black;
+}
+
+.content {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
