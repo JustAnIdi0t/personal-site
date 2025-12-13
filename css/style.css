@@ -58,3 +58,7 @@ nav {
   border-bottom: 2px solid black;
 }
 
+.page-404 h1 {
+  font-weight: 500;
+}
+
