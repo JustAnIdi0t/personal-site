@@ -33,65 +33,118 @@
   <!-- MAIN CONTENT -->
   <main class="content">
 
-    <!-- HEADER -->
-    <section>
-      <h1>Contact</h1>
-      <p>
-        If you'd like to get in touch, you can reach me directly by email
-        or sign up to receive occasional updates.
-      </p>
-    </section>
+<h1>Contact</h1>
 
-    <!-- EMAIL -->
-    <section>
-      <h2>Email</h2>
-      <p>
-        You can contact me at:<br />
-        <strong>
-          <a href="mailto:your@email.com">your@email.com</a>
-        </strong>
-      </p>
-    </section>
+<!--
+  PAGE PURPOSE:
+  This page provides a clear method of contact.
+  It is not intended to solicit engagement or imply availability beyond what is stated.
+-->
 
-    <!-- NEWSLETTER -->
-    <section>
-      <h2>Newsletter</h2>
-      <p>
-        If you'd like to receive occasional updates, you can subscribe below.
-        No fixed schedule.
-      </p>
+<p>
+  This page provides information for contacting Elijah Arenas or receiving
+  occasional updates.
+</p>
 
-      <form
-        name="newsletter"
-        method="POST"
-        action="/thanks.html"
-        data-netlify="true"
-      >
-        <!-- Netlify form name -->
-        <input type="hidden" name="form-name" value="newsletter" />
+<!-- ========================= -->
+<!-- EMAIL CONTACT -->
+<!-- ========================= -->
+<!--
+  INTENT:
+  This section provides a direct method of contact.
+  It should remain minimal and factual.
+  Avoid language that implies obligation to respond.
+-->
 
-        <label>
-          Email address
-          <br />
-          <input
-            type="email"
-            name="email"
-            required
-            placeholder="you@example.com"
-          />
-        </label>
+<section>
+  <h2>Email</h2>
 
-        <br /><br />
+  <p>
+    Direct contact can be made via email:
+  </p>
 
-        <button type="submit">Subscribe</button>
-      </form>
+  <p>
+    <a href="mailto:your@email.com">your@email.com</a>
+  </p>
+</section>
 
-      <p style="font-size: 0.9em; color: #555;">
-        Your email is used only for infrequent updates and is never shared.
-      </p>
-    </section>
+<!-- ========================= -->
+<!-- NEWSLETTER -->
+<!-- ========================= -->
+<!--
+  INTENT:
+  This section allows for low-commitment, one-directional updates.
+  It should remain optional, infrequent, and clearly bounded.
+  Avoid marketing language.
+-->
+
+<section>
+  <h2>Updates</h2>
+
+  <p>
+    Occasional updates may be shared through a mailing list.
+    There is no fixed schedule.
+  </p>
+
+  <!--
+    NOTE:
+    The form below can be enabled or disabled depending on usage limits
+    or desired level of engagement.
+  -->
+
+  <form
+    name="newsletter"
+    method="POST"
+    action="/thanks.html"
+    data-netlify="true"
+  >
+    <input type="hidden" name="form-name" value="newsletter" />
+
+    <label>
+      Email address<br />
+      <input
+        type="email"
+        name="email"
+        required
+        placeholder="you@example.com"
+      />
+    </label>
+
+    <br /><br />
+    <button type="submit">Subscribe</button>
+  </form>
+
+  <p style="font-size: 0.9em; color: #555;">
+    Email addresses are used only for occasional updates and are not shared.
+  </p>
+</section>
+
+<!-- ========================= -->
+<!-- SCOPE NOTE -->
+<!-- ========================= -->
+<!--
+  INTENT:
+  This closing note clarifies expectations.
+  It reinforces boundaries without defensiveness.
+-->
+
+<section>
+  <h2>Scope</h2>
+
+  <p>
+    This contact information is provided for correspondence related to the
+    material presented on this site.
+  </p>
+</section>
 
   </main>
+
+<footer class="site-footer">
+  <p>
+    © 2026 Elijah Arenas · Updated periodically
+  </p>
+</footer>
+
 
 </body>
 </html>
